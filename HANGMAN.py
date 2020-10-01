@@ -5,7 +5,7 @@ while True:
     if gameStart == "play":
         print("")
         wordList = ['python', 'java', 'kotlin', 'javascript','rainbow', 'computer', 'science', 'programming',  
-         'python', 'mathematics', 'player', 'condition',  
+         'python', 'mathematics','c++','php','Djnago', 'player', 'condition',  
          'reverse', 'water', 'board', 'geeks']
         guess = random.choice(wordList)
         dashStr = "-" * len(guess)
@@ -53,7 +53,7 @@ while True:
                     pass
                 else:
                     lives -= 1
-                    print("No such letter in the word")
+                    print("No such letter in the word ,please give appropriate word")
                 if lives == 0:
                     pass
                 else:
